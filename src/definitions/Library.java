@@ -6,6 +6,8 @@
  * */
 package definitions;
 
+import java.util.Arrays;
+
 public class Library {
     public Book[] market;
 
@@ -36,6 +38,13 @@ public class Library {
         for (Book book : market) {
             System.out.println(book);
         }
+    }
+
+    @Override
+    public String toString() {
+        return "Library{" +
+                "Market =" + Arrays.toString(market) +
+                '}';
     }
 
 
