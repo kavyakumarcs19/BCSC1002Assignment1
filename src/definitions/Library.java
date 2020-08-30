@@ -20,4 +20,13 @@ public class Library {
         }
     }
 
+    public Book[] getMarket() {
+        return market;
+    }
+
+    public void setMarket(Book[] market) {
+        this.market = market;
+    }
+
+
 }
