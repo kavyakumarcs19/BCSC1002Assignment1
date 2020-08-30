@@ -63,5 +63,58 @@ public class Student {
      * this method helps us to return the book.
      */
 
+    public void doReturn() {
+        if (codeOfTheIssuedBook == 0) {
+            System.out.println("No book available for return. ");
+        } else {
+            codeOfTheIssuedBook = 0;
+            this.nameOfTheBook = new Book[5];
+            System.out.println("Book returned successfully!");
+        }
+        System.out.println("---Press ENTER button for go to FrontDesk.--- ");
+        scanner.nextLine();
+    }
+
+    /**
+     * This method show a list of all the issued book.
+     */
+
+    public void showIssuesBook() {
+        System.out.println("Student name: " + nameOfTheStudent);
+        System.out.println("University roll no.: " + rollNumberOfUniversity);
+        for (int i = 0; i < codeOfTheIssuedBook; i++) {
+            System.out.println(nameOfTheBook[i]);
+        }
+        if (codeOfTheIssuedBook == 0) {
+            System.out.println("no any book issued!");
+        }
+        System.out.println("---Press ENTER button for go to FrontDesk.--- ");
+        scanner.nextLine();
+    }
+
+    public long getUniversityRollNumber() {
+        return rollNumberOfUniversity;
+    }
+
+    public void setUniversityRollNumber(long universityRollNumber) {
+        this.rollNumberOfUniversity = universityRollNumber;
+    }
+
+    public int getNumberOfBookIssued() {
+        return codeOfTheIssuedBook;
+    }
+
+    public void setNumberOfBookIssued() {
+        this.codeOfTheIssuedBook += 1;
+    }
+
+    public String getStudentName() {
+        return nameOfTheStudent;
+    }
+
+    public void setStudentName(String studentName) {
+        this.nameOfTheStudent = studentName;
+    }
+
 
 }
