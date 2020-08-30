@@ -7,7 +7,11 @@
 package definitions;
 
 public class Library {
-    public Book[] store;
+    public Book[] market;
+
+    public Library(Book[] market) {
+        this.market = market;
+    }
 
 
 }
