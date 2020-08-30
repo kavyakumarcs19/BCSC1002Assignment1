@@ -47,5 +47,18 @@ public class Library {
                 '}';
     }
 
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Library library = (Library) o;
+        return Arrays.equals(getMarket(), library.getMarket());
+    }
+
+    @Override
+    public int hashCode() {
+        return Arrays.hashCode(getMarket());
+    }
+
 
 }
