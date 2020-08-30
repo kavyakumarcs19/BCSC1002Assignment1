@@ -28,5 +28,9 @@ public class Library {
         this.market = market;
     }
 
+    /*
+     * This method will show a list of all the books in our inventory.
+     */
+
 
 }
