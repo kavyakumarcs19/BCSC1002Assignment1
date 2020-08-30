@@ -19,5 +19,11 @@ public class Book {
         this.ISBNNumberOfBook = ISBNNumberOfBook;
     }
 
+    public Book(String bookName, String authorNameOfBook, long ISBNNumberOfBook) {
+        this.nameOfTheBook = nameOfTheBook;
+        this.nameOfTheAuthor = nameOfTheAuthor;
+        this.ISBNNumberOfBook = ISBNNumberOfBook;
+    }
+
 
 }
