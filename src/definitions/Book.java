@@ -33,5 +33,9 @@ public class Book {
         return nameOfTheBook;
     }
 
+    public void setNameOfTheBook(String nameOfTheBook) {
+        this.nameOfTheBook = nameOfTheBook;
+    }
+
 
 }
