@@ -26,5 +26,17 @@ public class Student {
         this.nameOfTheBook = new Book[5];
     }
 
+    public Book[] getNameOfTheBook() {
+        return nameOfTheBook;
+    }
+
+    public void setNameOfTheBook(Book[] nameOfTheBook) {
+        this.nameOfTheBook = nameOfTheBook;
+    }
+
+    /*
+     * This method will help us to issue a book.
+     */
+
 
 }
