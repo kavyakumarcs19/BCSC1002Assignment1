@@ -15,4 +15,9 @@ public class Book {
         return ISBNNumberOfBook;
     }
 
+    public void setISBNNumberOfBook(long ISBNNumberOfBook) {
+        this.ISBNNumberOfBook = ISBNNumberOfBook;
+    }
+
+
 }
