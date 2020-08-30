@@ -11,5 +11,8 @@ public class Book {
     private String nameOfTheAuthor;
     private long ISBNNumberOfBook;
 
+    public long getISBNNumberOfBook() {
+        return ISBNNumberOfBook;
+    }
 
 }
