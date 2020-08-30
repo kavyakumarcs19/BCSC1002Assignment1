@@ -41,5 +41,14 @@ public class Book {
         this.nameOfTheAuthor = nameOfTheAuthor;
     }
 
+    @Override
+    public String toString() {
+        return "Book{" +
+                "nameOfTheBook ='" + nameOfTheBook + '\'' +
+                ", nameOfTheAuthor ='" + nameOfTheAuthor + '\'' +
+                ", ISBNNumberOfBook =" + ISBNNumberOfBook +
+                '}';
+    }
+
 
 }
