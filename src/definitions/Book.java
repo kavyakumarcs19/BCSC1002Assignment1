@@ -29,5 +29,9 @@ public class Book {
         return nameOfTheAuthor;
     }
 
+    public String getNameOfTheBook() {
+        return nameOfTheBook;
+    }
+
 
 }
