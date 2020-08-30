@@ -32,5 +32,11 @@ public class Library {
      * This method will show a list of all the books in our inventory.
      */
 
+    public void listOfOurInventory() {
+        for (Book book : market) {
+            System.out.println(book);
+        }
+    }
+
 
 }
