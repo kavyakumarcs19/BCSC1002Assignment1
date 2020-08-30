@@ -56,8 +56,8 @@ public class FrontDesk {
                     System.out.println("EXIT!");
                     break;
                 default:
-                    System.out.println("WRONG CHOICE.");
-                    System.out.println("PLEASE ENTER RIGHT CHOICE.");
+                    System.out.println("Wrong Choice.");
+                    System.out.println("Please Enter Right Choice.");
             }
         }
         while (clientInput != EXIT);
