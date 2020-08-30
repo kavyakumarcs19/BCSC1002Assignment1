@@ -13,5 +13,11 @@ public class Library {
         this.market = market;
     }
 
+    public Library() {
+        this.market = new Book[10];
+        for (int page = 0; page < market.length; page++) {
+            market[page] = new Book("Book" + (page + 1), null, 8563259874121L + (page + 1));
+        }
+    }
 
 }
