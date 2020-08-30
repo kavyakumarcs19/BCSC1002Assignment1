@@ -25,7 +25,9 @@ public class Book {
         this.ISBNNumberOfBook = ISBNNumberOfBook;
     }
 
-
+    public String getNameOfTheAuthor() {
+        return nameOfTheAuthor;
+    }
 
 
 }
