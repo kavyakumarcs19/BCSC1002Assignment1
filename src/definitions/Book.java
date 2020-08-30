@@ -37,5 +37,9 @@ public class Book {
         this.nameOfTheBook = nameOfTheBook;
     }
 
+    public void setNameOfTheAuthor(String nameOfTheAuthor) {
+        this.nameOfTheAuthor = nameOfTheAuthor;
+    }
+
 
 }
